@@ -104,7 +104,7 @@ class App extends React.Component {
 
     /* mapping over the array and filter the category to get only the endangered species */
     const NEW_ENDANGER_SPECIES = ENDANGER_SPECIES.map(el => {
-      if (el.category === "EN") {
+      if (el.category === "CR") {
         const NAME = el.name;
 
         /* return as list item */
